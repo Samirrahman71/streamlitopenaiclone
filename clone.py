@@ -2,9 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
+import openai
 
 
 
+api_key = "YOUR_API_KEY_HERE"
 st.markdown("# Main page 🎈")
 st.sidebar.markdown("# Main page 🎈")
 
